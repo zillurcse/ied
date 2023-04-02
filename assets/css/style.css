@@ -25,6 +25,7 @@ h5,
 h6 {
   margin: 0;
 }
+
 /* colors */
 .text_white {
   color: #ffffff;
@@ -96,7 +97,7 @@ nav {
 .search_box {
   background: #f4f4f4;
   border-radius: 8px;
-  padding: 10px 6px 10px 15px;
+  padding: 7px 6px 7px 15px;
 }
 .search_box input {
   background-color: transparent;
@@ -122,5 +123,51 @@ nav {
 .links ul {
   width: 95%;
   margin: 0 auto;
-  padding: 10px 40px;
+  /* padding: 0px 60px; */
+}
+.links a {
+  color: rgba(33, 33, 33, 0.75);
+  font-weight: 500;
+  padding: 15px 0;
+}
+.active_link {
+  color: #01a781 !important;
+  font-weight: 700;
+  border-bottom: 4px solid #01a781;
+}
+.hero_1 {
+  background-color: #01a781;
+  height: 60vh;
+  width: 50%;
+  clip-path: polygon(0% 0, 97% 0, 89% 100%, -1% 101%);
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  /* background-image:linear-gradient(top bottom,#0000004b,#0000002f, url(../img/shape-2.png)); */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.226),
+      rgba(0, 0, 0, 0.281)
+    ),
+    url("../img/shape-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero_2 {
+  background-color: #01a781;
+  height: 60vh;
+  width: calc();
+  width: calc(37% - 1vw);
+  margin-left: -91px;
+  clip-path: polygon(15% 0, 98% 0, 90% 100%, 4% 100%);
+}
+.hero_3 {
+  background: linear-gradient(  to right, #2786C8, #2684C7);
+
+  height: 60vh;
+  width: calc(33% - 1vw);
+  margin-left: -137px;
+  clip-path: polygon(31% 0, 100% 0, 100% 100%, 17% 100%);
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
 }
