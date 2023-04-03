@@ -312,6 +312,10 @@ nav {
   display: flex;
   justify-content: center;
 }
+.featured_products_wrapper{
+  width: 98%;
+  margin: 0 auto;
+}
 .featured_products_carousel {
   padding-bottom: 80px;
 }
@@ -319,7 +323,7 @@ nav {
   position: absolute;
   top: -5%;
   background-color: transparent;
-  left: 12px;
+  left: 15px;
   border: none;
 }
 
@@ -331,7 +335,7 @@ nav {
   position: absolute;
   top: -5%;
   background-color: transparent;
-  left: 70px;
+  left: 75px;
   border: none;
 }
 
