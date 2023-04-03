@@ -286,6 +286,9 @@ nav {
   width: 90px;
   border: 4px solid #29abe2;
 }
+.classification_section .box {
+  height: 260px;
+}
 /* featured_products_section*/
 .featured_products_section {
   background: linear-gradient(180deg, #23aad3 0%, rgba(250, 250, 250, 0) 100%);
@@ -310,37 +313,78 @@ nav {
   justify-content: center;
 }
 .featured_products_carousel {
-  padding: 80px 0;
+  padding-bottom: 80px;
 }
 .featured_products_carousel .owl-nav button.owl-prev {
   position: absolute;
-  top: 3%;
+  top: -5%;
   background-color: transparent;
   left: 12px;
   border: none;
 }
-.featured_products_carousel .owl-prev span {
-  font-size: 20px;
-  color: #002434;
-}
+
 .featured_products_carousel .owl-nav button.disabled {
   opacity: 0.5;
 }
 
 .featured_products_carousel .owl-nav button.owl-next {
   position: absolute;
-  top: 3.2%;
+  top: -5%;
   background-color: transparent;
-  left: 50px;
+  left: 70px;
   border: none;
 }
-.featured_products_carousel .owl-next span {
-  font-size: 20px;
-  color: #002434;
-}
+
 .more_products button {
   padding: 12px 64px;
   border: 1px solid #01a781;
   border-radius: 8px;
   background-color: transparent;
+}
+/* facilities_section */
+.facilities_section .box {
+  height: 205px;
+}
+.facilities_section{
+  padding-top: 0;
+  padding-bottom: 120px;
+}
+/* participants_section */
+.participants_section {
+  height: 270px;
+  background: #27436f;
+  
+}
+.participants_section .box {
+  height: 164px;
+  background: rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.03) !important;
+  border-radius: 6.4px !important;
+  backdrop-filter: blur(0px) !important;
+}
+/* 
+.participants_carousel {
+  padding: 80px 0;
+} */
+.participants_carousel .owl-nav button.owl-prev {
+  position: absolute;
+  top: -27%;
+  background-color: transparent;
+  left: 12px;
+  border: none;
+}
+
+.participants_carousel .owl-nav button.disabled {
+  opacity: 0.5;
+}
+
+.participants_carousel .owl-nav button.owl-next {
+  position: absolute;
+  top: -27%;
+  background-color: transparent;
+  left: 70px;
+  border: none;
+}
+.owl-stage-outer{
+  overflow: hidden;
 }
