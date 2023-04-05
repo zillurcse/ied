@@ -4,11 +4,12 @@
   box-sizing: border-box;
 }
 html {
-  font-family: "Tajawal", sans-serif;
   font-size: 62.5%;
 }
 body {
   background: #fafafa;
+  font-family: "Tajawal", sans-serif;
+
 }
 a {
   color: inherit;
@@ -232,7 +233,7 @@ nav {
   border-radius: 8px;
   font-weight: 700;
   border: 1px solid #ffffff;
-  width: 136px;
+  width: 140px;
 }
 /* overview section */
 .box-footer {
