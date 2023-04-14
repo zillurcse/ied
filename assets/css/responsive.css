@@ -1,0 +1,292 @@
+@media only screen and (min-device-width: 325px) and (max-device-width: 425px) {
+  .desktop_nav {
+    display: none !important;
+  }
+  
+  .responsive_nav {
+    display: block;
+    padding: 20px 20px;
+  }
+  .links {
+    display: none !important;
+  }
+  .responsive_links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(-500px);
+    transition: all 0.3s ease-in;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .signIn {
+    border: none;
+  }
+  .hero_section {
+    display: none;
+  }
+  .responsive_hero_Section{
+    display: block;
+  }
+  .responsive_hero {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 0;
+  }
+  .responsive_hero_Section .responsive_hero_1 {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(41, 171, 226, 0.7225),
+        rgba(41, 171, 226, 0.85) 100%
+      ),
+      url("../img/shape-2.png");
+    height: 274px;
+  }
+  .responsive_hero_Section .responsive_hero_2 {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(1, 167, 128, 0.836),
+        #01a780cb 100%
+      ),
+      url("../img/saudi-arabian-man-standing.png");
+    background-position-x: center !important ;
+    background-position-y: unset;
+    background-size: auto;
+  }
+  .responsive_hero_Section .responsive_hero_3 {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(39, 134, 200, 0.85),
+        #2684c7 100%
+      ),
+      url("../img/factory-robotic.png");
+    background-position-x: center !important ;
+    background-size: auto;
+    background-position-y: unset;
+  }
+  .responsive_box-footer {
+    height: auto !important;
+  }
+  .responsive_box-footer_wrapper {
+    padding: 45px 0;
+  }
+  .responsive_box-footer_wrapper,
+  .responsive_box-footer_qrtext {
+    flex-direction: column-reverse;
+  }
+  .responsive_box-footer_qrtext {
+    gap: 10px !important;
+  }
+  .responsive_box-footer_Contact {
+    font-size: 24px !important;
+  }
+  .responsive_box-text {
+    text-align: justify !important;
+    margin: 20px 0 !important;
+  }
+  .responsive_explanatory_wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .responsive_explanatory_text_wrapper {
+    margin-right: 10px;
+  }
+  .responsive_explanatory_text_wrapper h2{
+    margin-bottom: 10px;
+  }
+  .responsive_explanatory_text_part,
+  .video_part {
+    width: 100% !important;
+  }
+  .video_part {
+    height: 182px !important;
+  }
+  .video_part svg{
+    width: 11px;
+    height: 11px;
+  }
+  .video_part button{
+    padding: 8px 15px;
+    border-radius: 10px;
+  }
+  .classification_wrapper{
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .classification_item{
+    width: 100% !important;
+  }
+  .title{
+    padding: 40px 0 !important;
+  }
+  .title h2{
+    font-size: 20px !important;
+  }
+  .featured_products_section{
+    display: none !important;
+  }
+  .responsive_featured_products_section{
+    display:  block !important;
+  }
+  .responsive_featured_products_carousel {
+    padding: 80px 0;
+  }
+  .responsive_featured_products_carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 1%;
+    background-color: transparent;
+    left: 55%;
+    border: none;
+  }
+  
+  .responsive_featured_products_carousel .owl-nav button.disabled {
+    opacity: 0.5;
+  }
+  
+  .responsive_featured_products_carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 1%;
+    background-color: transparent;
+    left: 37%;
+    border: none;
+  }
+  .facilities_wrapper{
+    flex-direction: column-reverse;
+    gap: 20px;
+    padding: 0 30px;
+
+  }
+  .facilities_item{
+    width: 100%;
+  }
+  .facilities_title  {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .partners_section{
+    display: none !important;
+  }
+  .responsive_partners_section{
+    display: block;
+  }
+  .responsive_partners_section {
+    height: 315px;
+    background: #27436f;
+    overflow: hidden;
+  }
+  .responsive_partners_section .box {
+    height: 118px;
+    background: rgba(255, 255, 255, 0.95) !important;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.03) !important;
+    border-radius: 6.4px !important;
+    backdrop-filter: blur(0px) !important;
+    width: 30%;
+  }
+  .responsive_partners_carousel{
+    padding: 50px 0;
+  }
+  .responsive_partners_carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 1%;
+    background-color: transparent;
+    left: 55%;
+    border: none;
+  }
+  
+  .responsive_partners_carousel .owl-nav button.disabled svg path {
+    fill: #d9d9d9 !important;
+    opacity: 0.6;
+  }
+  
+  .responsive_partners_carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 1%;
+    background-color: transparent;
+    left: 37%;
+    border: none;
+  }
+  .responsive_partners_carousel .owl-stage-outer{
+    overflow: visible !important;
+  }
+  .responsive_partners_carousel img{
+    width: 80%;
+  }
+  .responsive_partners_carousel figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .participants_section{
+    padding-bottom: 0 !important;
+  }
+  .participants_carousel{
+    padding: 70px 0;
+  }
+  .participants_carousel_item{
+    display: flex;
+    justify-content: center;
+    width: 96%;
+  }
+  .participants_carousel_item figure{
+    width: 95%;
+    margin: 0 auto;
+  }
+  .participants_carousel img{
+    min-height: 210px !important;
+    max-height: 210px !important;
+
+  }
+  .participants_carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 1%;
+    background-color: transparent;
+    left: 55%;
+    border: none;
+  }
+  
+  .participants_carousel .owl-nav button.disabled svg path {
+    fill: #d9d9d9 !important;
+    opacity: 0.6;
+  }
+  
+  .participants_carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 1%;
+    background-color: transparent;
+    left: 37%;
+    border: none;
+  }
+  .join_section_box{
+    height: auto !important;
+    padding: 40px 0;
+    text-align: center;
+  }
+  .footer_section{
+    padding: 70px 15px !important;
+  }
+  .footer_item{
+    flex-direction: column-reverse !important;
+    gap: 30px !important;
+  }
+  .footer_section .contact{
+    align-items: flex-end !important;
+    flex-direction: column-reverse;
+    gap: 20px;
+    margin-bottom:15px;
+  }
+  .footer_item figure{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .footer_item figure img{
+    width: 100%;
+  }
+  .important_links h2{
+    width: 94% !important;
+  }
+}
