@@ -136,6 +136,7 @@ nav {
   border: 1px solid #d9d9d9;
   cursor: pointer;
 }
+
 .signIn {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
@@ -224,9 +225,14 @@ p,
   align-items: center;
   background: #29abe2;
 }
+.hero_1_overlayh2{
+  /* width: 90%; */
+  text-align: center;
+}
 
 .hero_1_overlay_wrapper {
   padding-left: 30px;
+  width: 70% !important;
 }
 .hero_1_overlay_wrapper h2 {
   transition: all 0.5s ease-in;
@@ -239,6 +245,7 @@ p,
 }
 .hero_1_overlayButton {
   margin-bottom: 100px;
+  margin-left: 0 !important;
 }
 .hero_2 {
   background-color: #01a781;
@@ -278,11 +285,14 @@ p,
 
 .hero_2_overlay_wrapper {
   padding-right: 150px;
+  margin-left: 200px;
+
 }
+
 .hero_2_overlayButton {
   transition: all 0.6s ease-in;
   margin-top: 40px;
-
+  margin-left: 0 !important;
   transform: translateY(-40px);
 }
 .hero_2 h2 {
@@ -319,7 +329,9 @@ p,
 .hero_2_overlayh2,
 .hero_2_overlayP {
   display: none;
+  margin: 0 !important;
 }
+
 .hero_2:hover .hero_2_overlayButton {
   transform: translateY(0px);
 }
@@ -383,6 +395,7 @@ p,
   transition: all 0.6s ease-in;
   margin-top: 40px;
   transform: translateY(-40px);
+  margin-left: 0 !important;
 }
 .hero_3:hover .hero_3_overlayButton {
   transform: translateY(0px);
@@ -411,6 +424,7 @@ p,
 .hero_3_overlayh2,
 .hero_3_overlayP {
   display: none;
+  margin: 0 !important;
 }
 
 .hero_3:hover .hero_3_overlayh2 {
@@ -433,6 +447,10 @@ p,
 }
 .hero_3 h2 {
   margin-left: 60px;
+ 
+}
+.hero_3_h2{
+  width: 50%;
 }
 .hero_3 button {
   margin-left: 60px;
@@ -445,6 +463,7 @@ p,
 }
 .hero_3_overlay_wrapper {
   padding-right: 50px;
+  margin-left: 206px;
 }
 .brand_btn {
   padding: 0px 22px;
@@ -488,6 +507,14 @@ p,
   position: absolute;
   right: -18px;
   top: 7px;
+}
+.box_en h2::before {
+  content: "";
+  right: auto;
+  left: -18px !important;
+
+
+
 }
 .en_box {
   background: rgba(255, 255, 255, 0.95);
@@ -537,6 +564,9 @@ p,
 .classification_section .box {
   height: 260px;
 }
+.more_en svg{
+  transform: rotate(180deg);
+}
 /* featured_products_section*/
 .responsive_featured_products_section{
   display: none !important;
@@ -576,6 +606,14 @@ p,
   background-color: transparent;
   left: 15px;
   border: none;
+}
+.carousel_controler_en .owl-nav button.owl-prev{
+  right: 6% !important;
+left: auto !important;
+}
+.carousel_controler_en .owl-nav button.owl-next{
+  right: 1% !important;
+  left: auto !important;
 }
 
 .featured_products_carousel .owl-nav button.disabled {
@@ -726,7 +764,12 @@ p,
   width: 68%;
   margin-right: 16px;
 }
+.important_links_en h2::before {
 
+  left: -18px;
+  right: auto !important;
+
+}
 .important_links h2::before {
   content: "";
   width: 6px;

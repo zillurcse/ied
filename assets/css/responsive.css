@@ -25,6 +25,12 @@
   .signIn {
     border: none;
   }
+  .search_box{
+    gap: 15px;
+  }
+  .search_in{
+    width: 50% !important;
+  }
   .hero_section {
     display: none;
   }
@@ -115,7 +121,7 @@
     border-radius: 10px;
   }
   .classification_wrapper{
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
     gap: 20px;
   }
   .classification_item{
@@ -156,7 +162,7 @@
     border: none;
   }
   .facilities_wrapper{
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
     gap: 20px;
     padding: 0 30px;
 
@@ -274,8 +280,8 @@
     gap: 30px !important;
   }
   .footer_section .contact{
-    align-items: flex-end !important;
-    flex-direction: column-reverse;
+    align-items: flex-start !important;
+    flex-direction: column;
     gap: 20px;
     margin-bottom:15px;
   }
@@ -288,5 +294,8 @@
   }
   .important_links h2{
     width: 94% !important;
+  }
+  .copyRight_section{
+    padding: 0 45px;
   }
 }
