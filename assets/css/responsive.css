@@ -21,6 +21,10 @@
     transition: all 0.3s ease-in;
     opacity: 0;
     visibility: hidden;
+    z-index: 99;
+  }
+  .responsive_links ul li a{
+    padding: 15px 0;
   }
   .signIn {
     border: none;
@@ -297,5 +301,39 @@
   }
   .copyRight_section{
     padding: 0 45px;
+  }
+  /* product listing page css */
+  .product_listing_box{
+    width: 85%;
+  }
+  .product_listing_title{
+    margin: 10px 10px;
+  }
+  .product_banner_carousel_item img{
+    height: 145px;
+  }
+  .product_search_box{
+    width: 75% !important;
+  }
+  .product_deatils_info{
+    margin-top: 30px;
+  }
+  .similar_product_box{
+    margin-left: -10px;
+  }
+  .similar_product_carousel .owl-nav button.owl-prev {
+   
+    top: -1%;
+    left: 38%;
+  }
+  .similar_product_carousel .owl-nav button.owl-next{
+    top: -1%;
+    left: 55%;
+  }
+  .product_range thead tr{
+    font-size: 10px !important;
+  }
+  .product_range tbody tr{
+    font-size: 14px !important;
   }
 }

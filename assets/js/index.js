@@ -83,3 +83,49 @@ hero_3.addEventListener('mouseout', () => {
     hero_1_p.style.opacity = "1"
     hero_1_btn.style.opacity = "1"
 });
+
+const languages_en =  document.querySelector(".languages_en")
+const languages_ar =  document.querySelector(".languages_ar")
+
+// function changeLanguage(lang) {
+//     location.hash = lang;
+//     location.reload();
+//   }
+// if (window.location.hash) {
+  
+//     // Set the content of the webpage 
+//     // depending on the hash value
+//     if (window.location.hash == "#es") {
+//       siteContent.textContent =
+//         language.es.welcome;
+//     }
+//     else if (window.location.hash == "#hin") {
+//       siteContent.textContent =
+//         language.hin.welcome;
+//     }
+//   }
+
+// let lang = document.documentElement.lang;
+// languages_ar.addEventListener("click" ,()=>{
+//     console.log(1);
+//     if(lang == "en"){
+//         document.documentElement.lang = "ar"
+//     }else{
+//         document.documentElement.lang = "ar"
+
+//     }
+// })
+// languages_en.addEventListener("click" ,()=>{
+//     console.log(2);
+
+//     if(lang == "ar"){
+//         document.documentElement.lang = "en"
+//     }else{
+//         document.documentElement.lang = "en"
+
+//     }
+// })
+// function googleTranslateElementInit() {
+//     new google.translate.TranslateElement({pageLanguage: 'ar', includedLanguages: 'en,ar'}, 'google_translate_element');
+//   }
+//   googleTranslateElementInit()

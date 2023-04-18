@@ -24,7 +24,7 @@
 </head>
 
 <body>
-    <main>
+    <main >
         <nav>
 
 
@@ -32,9 +32,15 @@
             <div class="d-flex align-items-center header justify-content-between desktop_nav" dir="auto" lang="ar">
                 <div class="w-50 d-flex align-items-center gap-5">
                     <div>
-                        <figure class="m-0">
-                            <img src="./assets/img/en_logo.png" alt="logo">
-                        </figure>
+                        <div>
+                            <!-- use this logo for english viersen -->
+                            <!-- <figure class="m-0">
+                                <img src="./assets/img/en_logo.png" alt="logo">
+                            </figure> -->
+                            <figure class="m-0">
+                                <img src="./assets/img/ar_logo.png" alt="logo">
+                            </figure>
+                        </div>
                     </div>
                     <div class="search_box d-flex align-items-center justify-content-between w-100 gap-3">
                         <div class="search_in  d-flex align-items-center justify-content-between">
@@ -86,9 +92,13 @@
 
 
                     </ul>
-                    <div class="languages">
+                    <div class="languages languages_en" >
                         <button class="text-capitalize border-0 rounded-circle">en</button>
                     </div>
+                    <!-- <div class="languages languages_ar" >
+                        <button class="text-capitalize border-0 rounded-circle">ar</button>
+                    </div>
+                    <div id="google_translate_element"></div> -->
                     <figure class="m-0 ">
                         <img src="./assets/img/logo.png" alt="logo">
                     </figure>
@@ -216,11 +226,11 @@
                 </div>
             </section>
             <section class="links " dir="auto" lang="ar">
-                <ul class="d-flex align-items-center justify-content-start gap-5 container mx-auto">
-                    <li class="px-3   text_15">
+                <ul class="d-flex align-items-center justify-content-start  container mx-auto ">
+                    <li class="   text_15">
                         <a href="#" class="active_link">الصفحة الرئيسية</a>
                     </li>
-                    <li class="px-3">
+                    <li class="">
                         <a href="#" class="text_15 d-flex align-items-center gap-2">
 
                             التصنيف الصناعي
@@ -232,9 +242,9 @@
                             </svg>
                         </a>
                     </li>
-                    <li class="px-3">
+                    <li class="">
                         <a href="#" class="text_15">
-                            المعرض الإلكتروني
+                            المنشأت المساندة  
                             <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -243,15 +253,15 @@
                             </svg>
                         </a>
                     </li>
-                    <li class="px-3">
+                    <li class="">
                         <a href="#" class="text_15">المعرض الإلكتروني</a>
                     </li>
-                    <li class="px-3">
+                    <li class="">
                         <a href="#" class="text_15">
                             المنفذون
                         </a>
                     </li>
-                    <li class="px-3">
+                    <li class="">
                         <a href="#" class="text_15"> مركز المساعدة</a>
                     </li>
                 </ul>
@@ -2195,7 +2205,7 @@
             </div>
         </section>
     </main>
-
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <!--====== jquery js ======-->
     <script src="./assets/js/jquery.js"></script>
 
