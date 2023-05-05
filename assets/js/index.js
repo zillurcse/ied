@@ -25,7 +25,12 @@ hambarger_cross.addEventListener("click", () => {
 
 })
 
-
+const allCategoriesLists = document.querySelector('.all_categories_lists');
+const categoriesWrapper = document.querySelector('.categories_wrapper');
+categoriesWrapper.addEventListener('click', () => {
+    allCategoriesLists.classList.toggle('d-block');
+  
+})
 hero_2.addEventListener('mouseover', () => {
     hero_1.style.width = '40%';
     hero_1.style.clipPath = 'polygon(0% 0, 80% 0, 65% 100%, 0% 101%)';
@@ -84,48 +89,3 @@ hero_3.addEventListener('mouseout', () => {
     hero_1_btn.style.opacity = "1"
 });
 
-const languages_en =  document.querySelector(".languages_en")
-const languages_ar =  document.querySelector(".languages_ar")
-
-// function changeLanguage(lang) {
-//     location.hash = lang;
-//     location.reload();
-//   }
-// if (window.location.hash) {
-  
-//     // Set the content of the webpage 
-//     // depending on the hash value
-//     if (window.location.hash == "#es") {
-//       siteContent.textContent =
-//         language.es.welcome;
-//     }
-//     else if (window.location.hash == "#hin") {
-//       siteContent.textContent =
-//         language.hin.welcome;
-//     }
-//   }
-
-// let lang = document.documentElement.lang;
-// languages_ar.addEventListener("click" ,()=>{
-//     console.log(1);
-//     if(lang == "en"){
-//         document.documentElement.lang = "ar"
-//     }else{
-//         document.documentElement.lang = "ar"
-
-//     }
-// })
-// languages_en.addEventListener("click" ,()=>{
-//     console.log(2);
-
-//     if(lang == "ar"){
-//         document.documentElement.lang = "en"
-//     }else{
-//         document.documentElement.lang = "en"
-
-//     }
-// })
-// function googleTranslateElementInit() {
-//     new google.translate.TranslateElement({pageLanguage: 'ar', includedLanguages: 'en,ar'}, 'google_translate_element');
-//   }
-//   googleTranslateElementInit()

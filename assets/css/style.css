@@ -946,8 +946,6 @@ p,
 }
 .for_contact,
 .company_info {
-
-
   border: 1px solid #d9d9d9;
   border-radius: 8px;
   padding: 15px 15px;
@@ -961,10 +959,10 @@ p,
 .company_info {
   background-color: #fafafa;
 }
-.similar_product_box{
+.similar_product_box {
   background-color: #fafafa;
 }
-.similar_product_carousel{
+.similar_product_carousel {
   padding: 50px 0;
 }
 .similar_product_carousel .owl-nav button.owl-prev {
@@ -974,7 +972,6 @@ p,
   left: 15px;
   border: none;
 }
-
 
 .similar_product_carousel .owl-nav button.disabled {
   opacity: 0.5;
@@ -1003,4 +1000,61 @@ p,
   right: 1% !important;
   left: auto !important;
   border: none;
+}
+
+.slick-wrapper {
+  width: 80%;
+  background-color: aqua;
+}
+.slide-item {
+  background-color: rebeccapurple;
+  color: aqua;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+  border: 1px solid white;
+}
+.slide-item h3 {
+  font-family: Lato, sans-serif;
+  font-size: 40px;
+}
+.all_categories_lists {
+  width: 380px;
+  height: 700px;
+  overflow-y: auto;
+  background: #fafafa;
+  box-shadow: 0px 3px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  top: 50px;
+}
+.all_categories_lists ul li {
+  border-bottom: 1.5px solid rgba(217, 217, 217, 0.3);
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+.all_categories_lists ul li .all_categories_item {
+  padding: 20px 15px;
+}
+.all_categories_lists ul li:hover {
+  background-color: #fff;
+}
+.all_categories_item span {
+  color: rgba(33, 33, 33, 0.75);
+  font-size: 12px;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+} */
+::-webkit-scrollbar-thumb {
+  background: #01a781;
+  border-radius: 8px;
+  transition: all 0.3s ease-in;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #01a780d7;
 }
