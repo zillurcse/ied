@@ -17,6 +17,9 @@ a {
 ul {
   list-style: none;
 }
+main {
+  position: relative;
+}
 h1,
 h2,
 h3,
@@ -504,6 +507,11 @@ p,
   font-weight: 700;
   border: 1px solid #ffffff;
   width: 140px;
+  transition: all 0.3s ease-in;
+}
+.brand_btn:hover {
+  background-color: transparent !important;
+  color: white;
 }
 .brand_btn_sm {
   width: 125px !important;
@@ -1176,4 +1184,111 @@ span {
   bottom: 20%;
   right: 20px;
   cursor: pointer;
+}
+.commodity_tab {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #212121;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.03);
+}
+.commodity_classification-section .active_tab {
+  background-color: #01a781 !important;
+  color: #fff;
+}
+.commodity_classification_table table {
+  width: 100%;
+  border-spacing: 0px 10px;
+  border-collapse: separate;
+}
+.commodity_classification_table {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.03);
+  padding: 0 30px 40px;
+}
+.commodity_classification_table table thead tr th {
+  font-weight: 500;
+  font-size: 18px;
+  color: #212121;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 20px 0;
+}
+.commodity_classification_table table tbody tr td {
+  background: #fafafa;
+  padding: 8px;
+  font-size: 16px;
+}
+.commodity_classification_table table tbody tr td span {
+  background: #01a781 !important;
+  color: #fff !important;
+  border-radius: 8px;
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 22px;
+}
+.text_align-end {
+  text-align: end;
+}
+.commodity_classification_table_tab span {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: rgba(217, 217, 217, 0.5);
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.commodity_classification_table_tab .active_tab {
+  background: #29abe2 !important;
+  color: #fff !important;
+}
+.g_classification_item {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(3px);
+
+  border-radius: 8px;
+  width: 19%;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  gap: 10px;
+}
+.g_classification_item p {
+  width: 47px;
+  height: 22px;
+  background: #01a781;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+.g_classification_item span {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(33, 33, 33, 0.75);
+}
+.g_classification_item figure {
+  width: 68px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  background: #fafafa;
+  border-radius: 20px;
 }
