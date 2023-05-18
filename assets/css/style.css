@@ -1145,6 +1145,9 @@ span {
   background: #01a780d7;
 }
 /* industrial classification page style */
+.i_classification_item_wrapper{
+  gap: 16px;
+}
 .i_classification_item {
   width: 11.4%;
   height: 168px;
@@ -1209,8 +1212,8 @@ span {
 }
 .commodity_classification_table {
   background: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.03);
+  /* border-radius: 8px; */
+  /* box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.03); */
   padding: 0 30px 40px;
 }
 .commodity_classification_table table thead tr th {
@@ -1254,6 +1257,11 @@ span {
   background: #29abe2 !important;
   color: #fff !important;
 }
+.g_classification_nav {
+  display: flex;
+  gap: 30px;
+  padding: 40px 0;
+}
 .g_classification_item {
   background: rgba(255, 255, 255, 0.95);
   box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.06);
@@ -1266,6 +1274,11 @@ span {
   flex-direction: column;
   padding: 18px;
   gap: 10px;
+}
+.g_classification_item h3 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
 }
 .g_classification_item p {
   width: 47px;
@@ -1291,4 +1304,7 @@ span {
 
   background: #fafafa;
   border-radius: 20px;
+}
+.g_classification_wrapper {
+  gap: 16px;
 }
