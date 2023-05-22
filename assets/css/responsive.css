@@ -408,5 +408,35 @@
     width: 31% !important;
     height: 120px !important;
   }
+  .signIn_wrapper{
+    width: 95% !important;
+    padding: 10px 20px !important;
+  }
+  .signIn_inputs_fln{
+    flex-wrap: wrap !important;
+    gap: 0 !important;
+  }
+  .signIn_input_form{
+    width: 100% !important;
+  }
+  .signIn_options .option{
+    width: 95% !important;
+  }
+  .customs_clearance_wrapper{
+    gap: 7px !important;
+  }
+  .customs_clearance_item {
+    width: 48% !important;
+   
+  }
+  .customs_clearance_item h2{
+    font-size: 14px !important;
+  }
+  .customs_clearance_item p{
+    font-size: 14px !important;
+  }
+  .customs_clearance_item span{
+    font-size: 14px !important;
+  }
 }
 

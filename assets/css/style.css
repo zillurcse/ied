@@ -1145,7 +1145,7 @@ span {
   background: #01a780d7;
 }
 /* industrial classification page style */
-.i_classification_item_wrapper{
+.i_classification_item_wrapper {
   gap: 16px;
 }
 .i_classification_item {
@@ -1307,4 +1307,90 @@ span {
 }
 .g_classification_wrapper {
   gap: 16px;
+}
+/* signIn page */
+.signIn_section {
+  background-color: #fafafa;
+  padding: 85px 0;
+}
+.signIn_wrapper {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 50%;
+  margin: 0px auto;
+  padding: 20px 40px;
+}
+.signIn_inputs .signIn_input_form {
+  background: #fafafa;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  margin: 15px 0;
+  display: flex;
+  height: 48px;
+  padding: 0 15px;
+  align-items: center;
+  gap: 17px;
+}
+.signIn_inputs .signIn_input_form input {
+  width: 100%;
+  outline: none;
+  border: none;
+  background: inherit;
+}
+.signIn_btn button {
+  border: none;
+  outline: none;
+  background: #01a781;
+  box-shadow: 10px 3px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  width: 50%;
+  cursor: pointer;
+}
+.or_left,
+.or_right {
+  border: 1px solid #d9d9d9;
+  width: 33%;
+}
+.signIn_options .option {
+  background: #ffffff;
+  /* Gray */
+
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  width: 60%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 0 20px;
+}
+/* customs_clearance page */
+.customs_clearance_wrapper{
+  gap: 23px;
+}
+.customs_clearance_item {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(3px);
+
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  gap: 8px;
+}
+.customs_clearance_item button {
+  
+  padding: 1px 10px;
+  background: #01a781;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
 }
