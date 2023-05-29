@@ -221,6 +221,40 @@ nav {
 .responsive_hero_Section {
   display: none;
 }
+.f_dropdown:hover .f_dropdown-menu{
+  opacity: 1 !important;
+  visibility: visible !important;
+  
+}
+.f_dropdown-menu{
+  position: absolute;
+    top: 54px;
+    left: -72px;
+    z-index: 99;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    z-index: 99;
+    padding: 20px;
+    width: 250px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease-in;
+}
+.f_dropdown-menu ul li {
+  padding: 5px 0px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.f_dropdown-menu ul li a:hover{
+  color: #01a781 !important;
+}
+.f_dropdown-menu ul li  .active{
+  color: #01a781 !important;
+
+}
 .hero_1 {
   background-color: #01a781;
   height: 590px;
@@ -1369,14 +1403,16 @@ span {
   padding: 0 20px;
 }
 /* customs_clearance page */
-.customs_clearance_wrapper{
-  gap: 23px;
+.customs_clearance_wrapper,
+.supporting_facilities_wrapper {
+  gap: 34px;
 }
-.customs_clearance_item {
+.customs_clearance_item,
+.supporting_facilities_items {
   background: rgba(255, 255, 255, 0.95);
   box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.06);
   backdrop-filter: blur(3px);
-
+  width: 23%;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -1384,7 +1420,16 @@ span {
   gap: 8px;
 }
 .customs_clearance_item button {
-  
+  padding: 1px 10px;
+  background: #01a781;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+.supporting_facilities_items button {
   padding: 1px 10px;
   background: #01a781;
   border-radius: 8px;

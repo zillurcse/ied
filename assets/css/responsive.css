@@ -398,45 +398,68 @@
     justify-content: center !important;
     gap: 20px;
   }
-  .i_classification-section{
+  .i_classification-section {
     padding: 15px !important;
   }
-  .i_classification_item_wrapper{
+  .i_classification_item_wrapper {
     gap: 10px;
   }
-  .i_classification_item{
+  .i_classification_item {
     width: 31% !important;
     height: 120px !important;
   }
-  .signIn_wrapper{
+  .signIn_wrapper {
     width: 95% !important;
     padding: 10px 20px !important;
   }
-  .signIn_inputs_fln{
+  .signIn_inputs_fln {
     flex-wrap: wrap !important;
     gap: 0 !important;
   }
-  .signIn_input_form{
+  .signIn_input_form {
     width: 100% !important;
   }
-  .signIn_options .option{
+  .signIn_options .option {
     width: 95% !important;
   }
-  .customs_clearance_wrapper{
+  .customs_clearance_section {
+    padding: 10px !important;
+  }
+  .customs_clearance_wrapper {
     gap: 7px !important;
   }
   .customs_clearance_item {
     width: 48% !important;
-   
   }
-  .customs_clearance_item h2{
+  .customs_clearance_item h2 {
     font-size: 14px !important;
   }
-  .customs_clearance_item p{
+  .customs_clearance_item p {
     font-size: 14px !important;
   }
-  .customs_clearance_item span{
+  .customs_clearance_item span {
+    font-size: 14px !important;
+  }
+
+  .supporting_facilities_section {
+    padding: 10px !important;
+  }
+  .supporting_facilities_wrapper {
+    gap: 7px !important;
+  }
+  .supporting_facilities_items {
+    width: 100% !important;
+  }
+  .supporting_facilities_items figure {
+    justify-content: flex-start !important;
+  }
+  .supporting_facilities_items h2 {
+    font-size: 14px !important;
+  }
+  .supporting_facilities_items p {
+    font-size: 14px !important;
+  }
+  .supporting_facilities_items span {
     font-size: 14px !important;
   }
 }
-
