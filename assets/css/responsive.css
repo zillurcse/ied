@@ -97,6 +97,8 @@
   .responsive_box-text {
     text-align: justify !important;
     margin: 20px 0 !important;
+    font-size: 14px !important;
+    line-height: 23px !important;
   }
   .responsive_explanatory_wrapper {
     flex-direction: column;
@@ -461,5 +463,97 @@
   }
   .supporting_facilities_items span {
     font-size: 14px !important;
+  }
+  .box {
+    margin: 0 10px;
+  }
+  .box h2 {
+    font-size: 18px !important;
+  }
+  .manager_speech {
+    margin: 0 10px;
+  }
+  .manager_info h2 {
+    font-size: 18px !important;
+  }
+  .manager_info p {
+    font-size: 14px !important;
+  }
+  .manager_comment {
+    padding: 30px 15px !important;
+  }
+  .manager_comment p {
+    font-size: 14px !important;
+    line-height: 23px;
+  }
+  .mve_wrapper {
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 10px;
+  }
+  .mve_itme {
+    width: 100%;
+  }
+  .mve_itme h2 {
+    font-size: 14px !important;
+  }
+  .mve_itme p {
+    font-size: 14px !important ;
+    line-height: 23px !important;
+  }
+  .address_contact_wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .address,
+  .contact {
+    width: 100%;
+  }
+  .getInTuch_loaction_wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .getInTuch,
+  .g_Location {
+    width: 100%;
+  }
+  .g_Location {
+    padding: 0 20px;
+  }
+  .getInTuch_btn {
+    width: 100%;
+  }
+
+  .getInTuch_box {
+    margin: 0 !important;
+  }
+  .vcep_wrapper {
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 10px;
+  }
+  .vcep_item {
+    width: 48%;
+  }
+  .vcep_item h2 {
+    font-size: 18px;
+  }
+  .vcep_item p {
+    font-size: 14px;
+  }
+  .help_guide_wrapper {
+    flex-direction: column;
+  }
+  .help_guide_item {
+    width: 100%;
+  }
+  .help_guide {
+    margin: 0 20px;
+  }
+  .help_guide_item h2 {
+    font-size: 18px;
+  }
+  .help_guide_item p {
+    font-size: 14px;
   }
 }
