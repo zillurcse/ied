@@ -556,4 +556,11 @@
   .help_guide_item p {
     font-size: 14px;
   }
+  .hg_sideBar_content_wrapper,.hg_trademark {
+    flex-direction: column;
+  }
+  .help_guide_sideBar,
+  .help_guide_content {
+    width: 100%;
+  }
 }
