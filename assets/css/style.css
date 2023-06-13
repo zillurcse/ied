@@ -221,25 +221,24 @@ nav {
 .responsive_hero_Section {
   display: none;
 }
-.f_dropdown:hover .f_dropdown-menu{
+.f_dropdown:hover .f_dropdown-menu {
   opacity: 1 !important;
   visibility: visible !important;
-  
 }
-.f_dropdown-menu{
+.f_dropdown-menu {
   position: absolute;
-    top: 54px;
-    left: -72px;
-    z-index: 99;
-    background: rgb(255, 255, 255);
-    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.06);
-    border-radius: 8px;
-    z-index: 99;
-    padding: 20px;
-    width: 250px;
-    opacity: 0;
-    visibility: hidden;
-    transition: all .3s ease-in;
+  top: 54px;
+  left: -72px;
+  z-index: 99;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  z-index: 99;
+  padding: 20px;
+  width: 250px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in;
 }
 .f_dropdown-menu ul li {
   padding: 5px 0px;
@@ -248,12 +247,11 @@ nav {
   cursor: pointer;
   transition: all 0.3s ease-in;
 }
-.f_dropdown-menu ul li a:hover{
+.f_dropdown-menu ul li a:hover {
   color: #01a781 !important;
 }
-.f_dropdown-menu ul li  .active{
+.f_dropdown-menu ul li .active {
   color: #01a781 !important;
-
 }
 .hero_1 {
   background-color: #01a781;
@@ -1438,4 +1436,158 @@ span {
   font-weight: 500;
   border: none;
   outline: none;
+}
+.manager_speech {
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 30px;
+}
+.manager_img figure {
+  width: 124px;
+  height: 124px;
+}
+
+.manager_img figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.manager_comment {
+  padding: 50px 40px;
+}
+.mve_itme {
+  width: 31%;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(3px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 8px;
+  padding: 25px;
+}
+.mve_svg-wrapper {
+  min-height: 200px;
+  width: 100%;
+}
+.mve_svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: #fafafa;
+}
+.address,
+.contact {
+  width: 48%;
+
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.03);
+  backdrop-filter: blur(3px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 8px;
+}
+.contact_phone,
+.address_location {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fafafa;
+  border-radius: 20px;
+}
+.getInTuch {
+  width: 48%;
+}
+.g_Location {
+  width: 48%;
+}
+.getInTuch_box {
+  box-shadow: none !important;
+}
+.getInTuch_input_wrapper,
+.getInTuch_textarea_wrapper {
+  background: #fafafa;
+  height: 48px;
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  margin: 20px 0;
+  overflow: hidden;
+  padding: 0 20px;
+}
+.getInTuch_textarea_wrapper {
+  height: auto !important;
+  padding: 20px !important;
+}
+.getInTuch_input_wrapper input {
+  width: 100%;
+  height: 100%;
+  border: none !important;
+  outline: none !important;
+  font-size: 14px;
+  color: rgba(33, 33, 33, 0.5);
+  background-color: transparent;
+}
+.getInTuch_textarea_wrapper textarea {
+  width: 100%;
+  height: 100%;
+  border: none !important;
+  outline: none !important;
+  font-size: 14px;
+  color: rgba(33, 33, 33, 0.5);
+  background-color: transparent;
+}
+.getInTuch_btn {
+  width: 70%;
+  height: 48px;
+  border: none;
+  outline: none;
+  background: #01a781;
+  box-shadow: 10px 3px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.vcep_item {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.03);
+  backdrop-filter: blur(3px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 8px;
+  padding: 40px 0px;
+}
+.vcep_svg {
+  width: 115px;
+  height: 115px;
+  background: #fafafa;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.help_guide {
+  background-color: transparent;
+  box-shadow: none;
+}
+.help_guide_item {
+  width: 48%;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.03);
+  backdrop-filter: blur(3px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 8px;
+  padding: 30px 20px;
 }
