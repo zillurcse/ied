@@ -205,8 +205,9 @@
                                 <a href="./index.html" class="">الصفحة الرئيسية</a>
                             </li>
                             <li class="f_dropdown position-relative">
-                                <a href="./industrial_classification.html" class="text_15 d-flex align-items-center gap-2 "  >
-        
+                                <a href="./industrial_classification.html"
+                                    class="text_15 d-flex align-items-center gap-2 ">
+
                                     التصنيف الصناعي
                                     <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -215,14 +216,14 @@
                                             fill="#212121" fill-opacity="0.75" />
                                     </svg>
                                 </a>
-                             <div class="f_dropdown-menu">
-                                <ul class="">
-                                    <li><a href="./commodity_classification.html">التصنيف السلعي</a></li>
-                                    <li><a href="./geographical_classification.html">التصنيف الجغرافي</a></li>
-                                   
-                                  </ul>
-        
-                             </div>
+                                <div class="f_dropdown-menu">
+                                    <ul class="">
+                                        <li><a href="./commodity_classification.html">التصنيف السلعي</a></li>
+                                        <li><a href="./geographical_classification.html">التصنيف الجغرافي</a></li>
+
+                                    </ul>
+
+                                </div>
                             </li>
                             <li class="f_dropdown position-relative">
                                 <a href="./supporting_facilities.html" class="text_15">
@@ -238,8 +239,8 @@
                                     <ul class="">
                                         <li><a href="#"> page coming soon</a></li>
                                         <li><a href="#"> page coming soon</a></li>
-                                      </ul>
-                                 </div>
+                                    </ul>
+                                </div>
                             </li>
                             <li class="">
                                 <a href="./product_details.html" class="text_15 active_link ">المعرض الإلكتروني</a>
@@ -714,16 +715,74 @@
                     <div class="col-lg-9 col-sm-12">
                         <div class="row p-4">
                             <div class="product_deatils_imgs d-flex flex-column px-3 gap-3 col-lg-6 col-sm-12">
-                                <figure class="media_img">
-                                    <img src="./assets/img/chair.png" alt="">
-                                </figure>
-                                <div class="d-flex gap-3 img_list">
-                                    <figure class="selected_img">
-                                        <img src="./assets/img/chair.png" alt="">
-                                    </figure>
-                                    <figure class="">
-                                        <img src="./assets/img/chair.png" alt="">
-                                    </figure>
+
+                                <div class="outer">
+                                    <div id="big" class="owl-carousel owl-theme">
+                                        <div class="item big_item">
+                                            <figure class="media_img" data-scale="3.0"
+                                                data-image="./assets/img/chair.png">
+                                                <img src="./assets/img/chair.png" alt="" class="image normal-zoom">
+                                            </figure>
+                                        </div>
+                                        <div class="item big_item">
+                                            <figure class="media_img">
+                                                <img src="./assets/img/ch-2.png" alt="" class="image normal-zoom">
+                                            </figure>
+                                        </div>
+                                        <div class="item big_item">
+                                            <figure class="media_img">
+                                                <img src="./assets/img/ch-3.png" alt="" class="image normal-zoom">
+                                            </figure>
+                                        </div>
+                                        <div class="item big_item">
+                                            <figure class="media_img">
+                                                <img src="./assets/img/ch-4.png" alt="" class="image normal-zoom">
+                                            </figure>
+                                        </div>
+
+                                    </div>
+                                    <div id="thumbs" class="owl-carousel owl-theme thumbs_owl-carousel">
+                                        <div class="item thumbs_item">
+                                            <figure class="media_img">
+                                                <img src="./assets/img/chair.png" alt="">
+                                            </figure>
+                                        </div>
+                                        <div class="item thumbs_item">
+                                            <figure class="media_img">
+                                                <img src="./assets/img/ch-2.png" alt="">
+                                            </figure>
+                                        </div>
+                                        <div class="item thumbs_item">
+                                            <figure class="media_img">
+                                                <img src="./assets/img/ch-3.png" alt="">
+                                            </figure>
+                                        </div>
+                                        <div class="item thumbs_item">
+                                            <figure class="media_img">
+                                                <img src="./assets/img/ch-4.png" alt="">
+                                            </figure>
+                                        </div>
+                                        <div class="item thumbs_item">
+                                            <figure class="media_img">
+                                                <img src="./assets/img/chair.png" alt="">
+                                            </figure>
+                                        </div>
+                                        <div class="item thumbs_item">
+                                            <figure class="media_img">
+                                                <img src="./assets/img/ch-2.png" alt="">
+                                            </figure>
+                                        </div>
+                                        <div class="item thumbs_item">
+                                            <figure class="media_img">
+                                                <img src="./assets/img/ch-3.png" alt="">
+                                            </figure>
+                                        </div>
+                                        <div class="item thumbs_item">
+                                            <figure class="media_img">
+                                                <img src="./assets/img/ch-4.png" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-12 product_deatils_info" dir="auto" lang="ar">
@@ -1399,13 +1458,150 @@
                         },
                     },
                 });
+                $(document).ready(function () {
+                    var bigimage = $("#big");
+                    var thumbs = $("#thumbs");
+                    //var totalslides = 10;
+                    var syncedSecondary = true;
+
+                    bigimage
+                        .owlCarousel({
+                            items: 1,
+
+                            slideSpeed: 2000,
+                            nav: true,
+                            // autoplay: true,
+                            dots: false,
+                            loop: true,
+                            responsiveRefreshRate: 200,
+                            navText: [
+                                '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
+                                '<i class="fa fa-arrow-right" aria-hidden="true"></i>'
+                            ]
+                        })
+                        .on("changed.owl.carousel", syncPosition);
+
+                    thumbs
+                        .on("initialized.owl.carousel", function () {
+                            thumbs
+                                .find(".owl-item")
+                                .eq(0)
+                                .addClass("current");
+                        })
+                        .owlCarousel({
+                            items: 4,
+                            dots: false,
+                            nav: true,
+                            margin: 10,
+                            navText: [
+                                '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="thumbs_svg"> <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" /></svg>',
+                                '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="thumbs_svg"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>'
+                            ],
+                            smartSpeed: 200,
+                            slideSpeed: 500,
+                            slideBy: 4,
+                            responsiveRefreshRate: 100
+                        })
+                        .on("changed.owl.carousel", syncPosition2);
+
+                    function syncPosition(el) {
+                        //if loop is set to false, then you have to uncomment the next line
+                        //var current = el.item.index;
+
+                        //to disable loop, comment this block
+                        console.log(el);
+                        var count = el.item.count - 1;
+                        var current = Math.round(el.item.index - el.item.count / 2 - 0.5);
+
+                        if (current < 0) {
+                            current = count;
+                        }
+                        if (current > count) {
+                            current = 0;
+                        }
+                        //to this
+                        thumbs
+                            .find(".owl-item")
+                            .removeClass("current")
+                            .eq(current)
+                            .addClass("current");
+                        var onscreen = thumbs.find(".owl-item.active").length - 1;
+                        console.log(onscreen)
+                        var start = thumbs
+                            .find(".owl-item.active")
+                            .first()
+                            .index();
+                        var end = thumbs
+                            .find(".owl-item.active")
+                            .last()
+                            .index();
+                        console.log(end);
+                        if (current > end) {
+                            thumbs.data("owl.carousel").to(current, 100, true);
+                        }
+                        if (current < start) {
+                            thumbs.data("owl.carousel").to(current - onscreen, 100, true);
+                        }
+                    }
+
+                    function syncPosition2(el) {
+                        if (syncedSecondary) {
+                            var number = el.item.index;
+                            bigimage.data("owl.carousel").to(number, 100, true);
+                        }
+                    }
+
+                    thumbs.on("click", ".owl-item", function (e) {
+                        e.preventDefault();
+                        var number = $(this).index();
+                        bigimage.data("owl.carousel").to(number, 300, true);
+                    });
+                });
+
 
             }, 2000);
+            // Zoom in/out clothing img
+            $('.image').click(function () {
+                $(this).toggleClass('normal-zoom zoom-in');
+            });
+
+            $('.image').on('mousemove', function (event) {
+                // This gives you the position of the image on the page
+                var bbox = event.target.getBoundingClientRect();
+
+                // Then we measure how far into the image the mouse is in both x and y directions
+                var mouseX = event.clientX - bbox.left;
+                var mouseY = event.clientY - bbox.top;
+
+                // Then work out how far through the image as a percentage the mouse is
+                var xPercent = (mouseX / bbox.width) * 100;
+                var yPercent = (mouseY / bbox.height) * 100;
+
+                // Then we change the `transform-origin` css property on the image to center the zoom effect on the mouse position
+                //event.target.style.transformOrigin = xPercent + '% ' + yPercent + '%';
+                // It's a bit clearer in jQuery:
+                $(this).css('transform-origin', (xPercent + '% ' + yPercent + '%'));
+                // We add the '%' units to make sure the string looks exactly like the css declaration it becomes.
+
+            });
+
+            // If you want it to automatically trigger on hover
+            $('.image').on('mouseenter', function () {
+                $(this).addClass('zoom-in');
+                $(this).removeClass('normal-zoom');
+            });
+
+            // and stop when not hovering
+            $('.image').on('mouseleave', function () {
+                $(this).addClass('normal-zoom');
+                $(this).removeClass('zoom-in');
+            });
         });
-       
+        // Zoom in/out clothing img
     </script>
 
     <script src="./assets/js/index.js"></script>
 </body>
+
 
 </html>
