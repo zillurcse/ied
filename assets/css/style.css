@@ -91,6 +91,9 @@ figure {
 .text_44 {
   font-size: 4.4rem;
 }
+.text_50 {
+  font-size: 5rem;
+}
 /* font weight */
 .font-medium {
   font-weight: 500;
@@ -1659,4 +1662,136 @@ span {
   border-radius: 8px;
   width: 73%;
   padding: 40px 20px;
+}
+/* clip-path: polygon(0 0, 100% 0, 100% 70%, 52% 57%, 0 68%); */
+.packages_section
+ {
+  background: rgba(250, 250, 250, 1);
+  padding: 100px 0;
+}
+.packages_item {
+  width: 31%;
+  /* min-height: 635px;
+  max-height: 635px; */
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.03);
+  backdrop-filter: blur(3px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 8px;
+}
+.packages_cata {
+  height: 105px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+  background-color: #00a2e8;
+  border-radius: 10px;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 100%,
+    96% 99%,
+    92% 97%,
+    88% 95%,
+    84% 93%,
+    80% 91%,
+    76% 89%,
+    72% 87%,
+    68% 85%,
+    64% 83%,
+    60% 81%,
+    56% 79%,
+    52% 78%,
+    50% 78%,
+    48% 78%,
+    44% 79%,
+    40% 81%,
+    36% 83%,
+    32% 85%,
+    28% 87%,
+    24% 89%,
+    20% 91%,
+    16% 93%,
+    12% 95%,
+    08% 97%,
+    04% 99%,
+    0% 100%
+  );
+}
+.packages_cata_basic {
+  background: #d9d9d9;
+}
+.packages_cata_plus {
+  background: #29abe2;
+}
+.packages_cata_pro {
+  background: #27436f;
+}
+.packages_detiles {
+  width: 90%;
+  margin: 40px auto;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 25px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: disc;
+}
+.packages_btn {
+  background: #01a781;
+  /* 1 */
+
+  box-shadow: 10px 3px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+.packages_title {
+  width: 35%;
+}
+.packages_title_left,
+.packages_title_right {
+  height: 1px;
+  background-color: #d9d9d9;
+  width: 31%;
+}
+.package_details table {
+  width: 100%;
+  border-spacing: 0px 10px;
+  border-collapse: separate;
+}
+.package_details table thead tr th:first-child {
+  font-weight: 700;
+  font-size: 18px;
+  color: #212121;
+}
+.package_details table thead tr th {
+  font-weight: 400;
+  font-size: 14px;
+  color: #212121;
+  padding: 20px 0;
+}
+.package_details table tbody tr td {
+  font-size: 16px;
+  color: #212121;
+  padding: 4px 7px;
+  background: #fafafa;
+}
+.package_details_section{
+  padding-bottom:100px ;
+  background: rgba(250, 250, 250, 1);
+
 }
