@@ -556,11 +556,42 @@
   .help_guide_item p {
     font-size: 14px;
   }
-  .hg_sideBar_content_wrapper,.hg_trademark {
+  .hg_sideBar_content_wrapper,
+  .hg_trademark {
     flex-direction: column;
   }
   .help_guide_sideBar,
   .help_guide_content {
     width: 100%;
+  }
+  .packages_wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .packages_section{
+    padding: 30px 0 !important;
+  }
+  .packages_item {
+    width: 95%;
+  }
+  .packages_title h2 {
+    font-size: 18px !important;
+  }
+  .packages_title{
+    width: 63% !important;
+  }
+  .packages_title_left ,.packages_title_right{
+    width: 22% !important;
+  }
+  .package_details table thead tr th:first-child{
+    font-size: 16px !important;
+  }
+  .package_details table tbody tr td{
+    font-size: 14px !important;
+  }
+  .package_details_btn{
+    width: 95% !important;
   }
 }
